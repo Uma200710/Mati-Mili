@@ -1,0 +1,19 @@
+.rgb-title {
+  font-size: 48px;
+  font-weight: bold;
+  animation: rgbColor 5s infinite linear;
+    font-family: "Comic Neue", cursive;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+@keyframes rgbColor {
+  0%   { color: rgb(255, 0, 0); }     /* rojo */
+  33%  { color: rgb(0, 255, 0); }     /* verde */
+  66%  { color: rgb(0, 0, 255); }     /* azul */
+  100% { color: rgb(255, 0, 0); }     /* vuelve a rojo */
+}
+
+*{
+    text-align: center;
+}
