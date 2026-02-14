@@ -1,5 +1,5 @@
 .rgb-title {
-  font-size: 48px;
+  font-size: 28px;
   font-weight: bold;
   animation: rgbColor 5s infinite linear;
     font-family: "Comic Neue", cursive;
@@ -17,3 +17,4 @@
 *{
     text-align: center;
 }
+
